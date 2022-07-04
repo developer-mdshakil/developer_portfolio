@@ -1,0 +1,53 @@
+/*********** common css ***********/
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+}
+/******** top-banner **********/
+/****** flex-content *******/
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flex-content{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+.half-width span{
+    color: #ff5200;
+}
+.half-width h3{
+    font-weight: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.half-width p{
+    color: rgb(175, 162, 162);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);;
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
+.half-width img{
+    width: 80%;
+}
