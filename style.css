@@ -94,3 +94,8 @@ h1{
 #fullStack_developer{
     border-left: 7px solid #ff5200;
 }
+/****** footer *********/
+footer p{
+    text-align: center;
+    color: #ccc;
+}
