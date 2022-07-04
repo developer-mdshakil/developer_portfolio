@@ -22,9 +22,8 @@ h1{
     display: flex;
 }
 .half-width{
-    width: 40%;
+    width: 50%;
     padding-left: 5%;
-    margin-left: 5%;
 }
 .half-width span{
     color: #ff5200;
