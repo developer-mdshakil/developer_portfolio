@@ -50,3 +50,47 @@ h1{
 .half-width img{
     width: 80%;
 }
+/********* dream-big *********/
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/********** experiences_area ***********/
+.experiences_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience_itms{
+    display: flex;
+    padding: 5%;
+}
+.exp_widget{
+    width: 50%;
+    box-shadow: 10px 20px 40px gray;
+    padding: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.exp_widget h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.exp_widget strong{
+    font-size: 20px;
+    display: inline-block;
+    color: #ff5200;
+    margin-bottom: 20px;
+}
+.exp_widget p{
+    font-size: 15px;
+    color: rgb(175, 162, 162);
+    margin-bottom: 20px;
+}
+#junior_developer{
+    border-left: 7px solid blue;
+}
+#fullStack_developer{
+    border-left: 7px solid #ff5200;
+}
